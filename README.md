@@ -59,7 +59,7 @@ The models used here are mostly target at performing feature engineering, includ
 
 <img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/2.png" height="250" width="500">
 
-<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/3.png" height="400" width="700">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/3.png" height="400" width="900">
 
 <img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/4.png" height="500" width="500">
 

@@ -21,7 +21,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 1: Spark & Hadoop Cluster setting on Google Cloud: 1 master node with 4 worker node.
 
-#<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.10.30%20PM.png" height="600" width="800">
+#<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.10.30%20PM.png" height="200" width="400">
 
 2: EC2 for PySpark & python coding: EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
 

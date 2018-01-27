@@ -1,6 +1,6 @@
 # Film recommendation engine based on Google Cloud
 
-## Key words: Python, Pyspark, SQL, GraphDB, Tensorflow, ALS, SVD, CNN, VGG16, Rating matrix
+### Key words: Python, Pyspark, SQL, GraphDB, Tensorflow, ALS, SVD, CNN, VGG16, Rating matrix
 
 ## Data description:
 
@@ -21,7 +21,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 1: Spark & Hadoop Cluster setting on Google Cloud: 1 master node with 4 worker node.
 
-#<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.10.30%20PM.png" height="250" width="500">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.03.52%20PM.png" height="250" width="500">
 
 2: EC2 for PySpark & python coding: EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
 
@@ -29,8 +29,13 @@ The detail of data description could be found in the data folder, there is a rea
 
 1: Cloud SQL: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
 
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.10.30%20PM.png" height="250" width="500">
+
 2: Graph database: visualization of relationship among films, directors & actors
 
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/graph_database.png" height="250" width="500">
+
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/graph_database2.png" height="250" width="500">
 
 ## Target:
 

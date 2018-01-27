@@ -1,5 +1,7 @@
 # Film recommendation engine based on Google Cloud
 
+## Key words: Python, Pyspark, SQL, GraphDB, Tensorflow, ALS, SVD, CNN, VGG16, Rating matrix
+
 ## Data description:
 
 In this project, I mainly use two datasets, one is film rating data, and the other is movie poster data. 
@@ -8,25 +10,42 @@ In this project, I mainly use two datasets, one is film rating data, and the oth
 
 - Film poster data: Movie poster data from IMDB & TMDB. (link: https://www.themoviedb.org/?language=en)
 
+- Film actor & director data: Data of relationship among films, directors & actors. 
+
 
 The detail of data description could be found in the data folder, there is a readme file there.
 
-## Environment: 
+## Environment & Database: 
 
-1: Python environment setting is in the doc folder called environment.
+* Google Cloud Linux environment setting:  
 
-2: Google Cloud: Including linux environment and GPU (Telsa K80). EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
+1: Spark & Hadoop Cluster setting on Google Cloud: 1 master node with 4 worker node.
+
+<img src="https://github.com/ZishuoLi/Text-Mining-Over-Presidents-Speech-with-NLP/blob/master/figs/2.png" height="600" width="800">
+
+2: EC2 for PySpark & python coding: EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
+
+* Database: 
+
+1: Cloud SQL: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
+
+2: Graph database: visualization of relationship among films, directors & actors
+
 
 ## Target:
 
-1: Classify the data into ten labels.
+1: Make film recommendation with different modes
 
-2: Predict the next 25 sequence data with dirty data.
+2: Ultizie google cloud and online database to scale the project
 
 ## Model:
 
-1: Classification: GRU, LSTM, SimpleRNN, the model I trained is in the code-model folder saved as keras model. For GRU and Simple RNN, it achieve 93%, 91% accuracy rate, and for LSTM, it gets 83% accuracy rate
+The models used here are mostly target at performing feature engineering, including feature engineering from movie posters with CNN, extracting latent features through Spark ALS model & SVD (matrix factorization).
 
-2: Predictions: GRU, LSTM, I classify the data into quantiles and use accuracy rate as target, but the result is not quite good, only 63% accuracy rate achieved due to time, compuational power & knowledge limitaion.
+1: Deep learning (CNN,VGG16): Ultilized pretrained VGG16 to extract features from movie posters
+
+2: SVD: Singular-value decomposition is a way to perform matrix factorization, it could be used to extract latent features from rating matrix. I used SVD with Tensorflow here to improve the compuational efficience.
+
+3: Spark ALS: Spark ALS model is a spark built-in model and are widely used in the industry for recommendation system.
 
 ## some screenshot

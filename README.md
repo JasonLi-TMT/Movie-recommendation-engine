@@ -55,13 +55,13 @@ The models used here are mostly target at performing feature engineering, includ
 
 ## Recommendation result
 
-<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/1.png" height="400" width="900">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/1.png" height="350" width="800">
 
-<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/2.png" height="400" width="900">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/2.png" height="350" width="800">
 
-<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/3.png" height="400" width="900">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/3.png" height="350" width="800">
 
-<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/4.png" height="900" width="900">
+<img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/4.png" height="700" width="800">
 
 
 ## some screenshot

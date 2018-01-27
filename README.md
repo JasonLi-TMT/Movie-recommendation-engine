@@ -17,7 +17,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 ## Environment & Database: 
 
-* Google Cloud Linux environment setting:  
+* **Google Cloud Linux environment setting:  
 
 1: Spark & Hadoop Cluster setting on Google Cloud: 1 master node with 4 worker node.
 
@@ -25,7 +25,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 2: EC2 for PySpark & python coding: EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
 
-* Database: 
+* **Database: 
 
 1: Cloud SQL: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
 

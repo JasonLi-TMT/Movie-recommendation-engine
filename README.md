@@ -27,11 +27,11 @@ The detail of data description could be found in the data folder, there is a rea
 
 - **Database**: 
 
-1: Cloud SQL: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
+1: **Cloud SQL**: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
 
 <img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/Screen%20Shot%202018-01-27%20at%2012.10.30%20PM.png" height="250" width="500">
 
-2: Graph database: visualization of relationship among films, directors & actors
+2: **Graph database**: visualization of relationship among films, directors & actors
 
 <img src="https://github.com/ZishuoLi/Film-recommendation-engine-based-on-Google-Cloud/blob/master/figs/graph_database.png" height="250" width="500">
 

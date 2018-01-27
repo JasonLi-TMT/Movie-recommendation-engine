@@ -2,14 +2,14 @@
 
 ## Data description:
 
-In this project, I use mainly two dataset, one is film rating data, and the other is movie poster data. 
+In this project, I mainly use two datasets, one is film rating data, and the other is movie poster data. 
 
 + Film rating data: Consist of 100,005 film rating records. (link: http://www.grouplens.org/node/73)
 
 + Film poster data: Movie poster data from IMDB & TMDB. (link: https://www.themoviedb.org/?language=en)
 
 
-The detail of data description could be found in the doc folder, there is a readme file there.
+The detail of data description could be found in the data folder, there is a readme file there.
 
 ## Environment: 
 

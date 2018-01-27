@@ -17,7 +17,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 ## Environment & Database: 
 
-* ** Google Cloud Linux environment setting:  
+- **Google Cloud Linux environment setting**:  
 
 1: Spark & Hadoop Cluster setting on Google Cloud: 1 master node with 4 worker node.
 

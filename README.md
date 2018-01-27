@@ -10,7 +10,7 @@ In this project, I mainly use two datasets, one is film rating data, and the oth
 
 - **Film poster data**: Movie poster data from IMDB & TMDB. (link: https://www.themoviedb.org/?language=en)
 
-- **Film actor & director data**: Data of relationship among films, directors & actors. 
+- **Film relationship data**: Data of relationship among films, directors & actors. 
 
 
 The detail of data description could be found in the data folder, there is a readme file there.

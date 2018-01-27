@@ -6,11 +6,11 @@
 
 In this project, I mainly use two datasets, one is film rating data, and the other is movie poster data. 
 
-- **Film rating data: Consist of 100,005 film rating records. (link: http://www.grouplens.org/node/73)
+- **Film rating data**: Consist of 100,005 film rating records. (link: http://www.grouplens.org/node/73)
 
-- **Film poster data: Movie poster data from IMDB & TMDB. (link: https://www.themoviedb.org/?language=en)
+- **Film poster data**: Movie poster data from IMDB & TMDB. (link: https://www.themoviedb.org/?language=en)
 
-- **Film actor & director data: Data of relationship among films, directors & actors. 
+- **Film actor & director data**: Data of relationship among films, directors & actors. 
 
 
 The detail of data description could be found in the data folder, there is a readme file there.
@@ -25,7 +25,7 @@ The detail of data description could be found in the data folder, there is a rea
 
 2: EC2 for PySpark & python coding: EC2 Url: https://35.227.55.209:5000 currently stopped due to cost, plz contact zl2528@columbia.edu to get access.
 
-- **Database: 
+- **Database**: 
 
 1: Cloud SQL: host ='104.154.165.159', user = 'root', database name: 'Spark', password: 1111
 

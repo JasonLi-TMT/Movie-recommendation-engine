@@ -1,6 +1,6 @@
-# Film recommendation engine based on Google Cloud
+# Movie recommendation engine 
 
-### Key words: Python, Pyspark, SQL, GraphDB, Tensorflow, ALS, SVD, CNN, VGG16, Rating matrix
+### Key words: Google Cloud, Python, Pyspark, SQL, GraphDB, Tensorflow, ALS, SVD, CNN, VGG16, Rating matrix
 
 ## Data description:
 
